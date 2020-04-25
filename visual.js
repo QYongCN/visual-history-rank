@@ -9828,6 +9828,9 @@ function compare(property){
 }
 
 function fprovince() {
+    for(var c = 0; c < 9999; c++) {
+        clearInterval(c);
+    }
     d3.select('#mainsvg').selectAll('*').remove();
     var options=$("#province").find("option:selected");
     var seltext = options.text();
@@ -9852,6 +9855,9 @@ function fprovince() {
 }
 
 function ftype() {
+    for(var c = 0; c < 9999; c++) {
+        clearInterval(c);
+    }
     d3.select('#mainsvg').selectAll('*').remove();
     var options=$("#type").find("option:selected");
     var seltext = options.text();
